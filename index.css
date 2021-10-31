@@ -76,7 +76,7 @@ body {
     position: relative;
     bottom: 2px;
     color: gray;
-    text-decoration: none;
+    text-decoration: underline;
 }
 
 #photo-heading {
@@ -178,6 +178,7 @@ main {
 #text a:hover {
     position: relative;
     bottom: 2px;
+    text-decoration: underline;
 }
 
 #contact {
@@ -223,6 +224,14 @@ label {
     font-weight: 400;
     line-height: 1.4;
     margin-bottom: 20px;
+}
+
+input:focus{
+    background: skyblue;
+}
+
+textarea:focus{
+    background: skyblue;
 }
 
 #name {
